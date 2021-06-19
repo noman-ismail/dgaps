@@ -1,0 +1,66 @@
+/* CSS Document */
+.page-header {
+  background-color: #090909;
+  min-height: 50px;
+  padding: 20px 0;
+  text-align: left;
+}
+.page-header .breadcrumb {
+  background-color: transparent;
+  margin-bottom: 0;
+  padding: 0;
+}
+.page-header .breadcrumb-item a {
+  text-decoration: none;
+  color: var(--site-color);
+}
+.breadcrumb-item + .breadcrumb-item {
+  padding-left: .5rem;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  float: left;
+  padding-right: .5rem;
+  color: #6c757d;
+  content: var(--bs-breadcrumb-divider, "-");
+}
+.breadcrumb-item.active {
+  color: #6c757d;
+}
+.page-header .post_views {
+  color: #ccc;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+}
+.accordion-item {
+  margin: 10px 0px;
+}
+.accordion-item:first-of-type, .accordion-item:last-of-type {
+  border-radius: 0;
+}
+.accordion-button:not(.collapsed) {
+  color: var(--site-color);
+  background-color: #f5f5f5;
+}
+button:focus:not(:focus-visible) {
+  box-shadow: none;
+}
+.accordion-button::before {
+  counter-increment: faqs;
+  content: counter(faqs) ". ";
+  display: inline-block;
+  color: #00abc9;
+  font-weight: 700;
+  margin-right: 10px;
+}
+.accordion-body {
+  font-family: Lato, sans-serif;
+  line-height: 27px;
+  letter-spacing: 1.12px;
+  font-weight: 500;
+  font-style: normal;
+  color: #515151;
+  font-size: 13px;
+}
+.accordion-button {
+  font-weight: 600;
+}

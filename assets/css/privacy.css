@@ -1,0 +1,203 @@
+/* CSS Document */
+
+.page-header {
+  background-color: #090909;
+  min-height: 50px;
+  padding: 20px 0;
+  text-align: left;
+}
+.page-header .breadcrumb {
+  background-color: transparent;
+  margin-bottom: 0;
+  padding: 0;
+}
+.page-header .breadcrumb-item a {
+  text-decoration: none;
+  color: var(--site-color);
+}
+.breadcrumb-item + .breadcrumb-item {
+  padding-left: .5rem;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  float: left;
+  padding-right: .5rem;
+  color: #6c757d;
+  content: var(--bs-breadcrumb-divider, "-");
+}
+.breadcrumb-item.active {
+  color: #6c757d;
+}
+.page-header .post_views {
+  color: #ccc;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+}
+/*section main starts*/
+a {
+    text-decoration: none;
+    color: #090909;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.text-color-2 {
+	color: var(--site-color);
+}
+
+h1 {
+    color: #fff;
+    font-size: 40px;
+    margin: 5px 0 10px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+}
+h2 {
+    margin-bottom: 10px;
+    font-size: 31px;
+    color: #303030;
+    line-height: 36px;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    letter-spacing: -.04em;
+    text-rendering: optimizeLegibility;
+}
+h3 {
+    text-transform: capitalize;
+    color: #1f1f1f;
+    font-size: 17px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 28px;
+    letter-spacing: -.48px;
+    font-family: Montserrat, sans-serif;
+}
+.main__article h1 {
+    text-transform: none;
+    font-family: Montserrat, sans-serif;
+    line-height: 60px;
+    letter-spacing: .64px;
+    font-weight: 600;
+    font-style: normal;
+    color: #282828;
+    font-size: 42px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity .24s ease-in-out;
+    -o-transition: opacity .24s ease-in-out;
+    transition: opacity .24s ease-in-out;
+}
+.main__article h1 {
+    font-size: 28px !important;
+    line-height: 36px !important;
+    text-align: left;
+}
+.main__article h2 {
+    font-size: 24px;
+}
+.main__article h3 {
+    font-family: Montserrat, sans-serif;
+    line-height: 36px;
+    letter-spacing: .64px;
+    font-weight: 600;
+    font-style: normal;
+    color: #282828;
+    font-size: 24px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity .24s ease-in-out;
+    -o-transition: opacity .24s ease-in-out;
+    transition: opacity .24s ease-in-out;
+    text-rendering: inherit;
+    -webkit-font-smoothing: inherit;
+}
+.main__article h3 {
+    font-size: 20px;
+}
+.main__article p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    color: #1f1f1f;
+    margin-bottom: 25px;
+    font-style: normal;
+    font-family: Lato, sans-serif;
+    text-align: justify;
+    margin: 1rem 0;
+    text-rendering: optimizeLegibility;
+}
+.main__article ul {
+    text-align: left;
+    margin-left: 20px;
+}
+.main__article ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: .08em;
+    color: #000;
+    list-style: none;
+}
+.main__article > ul > li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: .08em;
+    color: #000;
+    list-style: none;
+    margin-left: 20px;
+}
+.main__article > ul > li::before {
+    content: "\f00c";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #00abc9;
+    margin-right: 10px;
+}
+.main__article > ol {
+    text-align: left;
+    margin-left: 20px;
+}
+.main__article > ol > li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: .08em;
+    color: #000;
+    list-style: none;
+    margin-left: 20px;
+    counter-increment: my-awesome-counter;
+}
+.main__article > ol > li::before {
+    content: counter(my-awesome-counter) ". ";
+    display: inline-block;
+    color: #00abc9;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
